@@ -1,1 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    char name[50];
+
+    printf("Enter your name: ");
+    fgets(name, sizeof(name), stdin);  // Read input with spaces
+
+    printf("Hello, %sWelcome!\n", name);
+
+    return 0;
+}
 
