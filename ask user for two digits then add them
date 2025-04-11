@@ -1,10 +1,14 @@
-#include<stdio.h>
-int main()
-{
-int num1,num2, sum;
-printf("enter the digits here:",num1 ,num2);
-scanf("%d %d",num1,num2);
-sum=num1+num2;
-printf("the sum of two number is" sum\n);
-return;0
+#include <stdio.h>
+
+int main() {
+    int num1, num2, sum; // taking teo number from user 
+
+    printf("Enter two numbers: ");
+    scanf("%d %d", &num1, &num2);
+//declaring the operator here 
+    sum = num1 + num2;
+
+    printf("The sum of two numbers is %d\n", sum);
+
+    return 0;
 }
