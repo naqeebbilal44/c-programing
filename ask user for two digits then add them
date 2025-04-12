@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int num1, num2, sum; // taking teo number from user 
+    int num1, num2, sum; // taking the number from user 
 
     printf("Enter two numbers: ");
     scanf("%d %d", &num1, &num2);
