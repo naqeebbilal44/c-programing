@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    float num1, num2, product;
+
+    // Prompting and reading two numbers with one print and one scan
+    printf("Enter two numbers separated by space: ");
+    scanf("%f %f", &num1, &num2);
+
+    // Multiplying the numbers
+    product = num1 * num2;
+
+    // Output the result
+    printf("Product = %.2f\n", product);
+
+    return 0;
+}
