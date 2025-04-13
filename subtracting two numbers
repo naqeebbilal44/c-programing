@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    int num1, num2, result;
+
+    // Asking for input
+    printf("Enter two numbers: ");
+    scanf("%d %d", &num1, &num2);
+
+    // Subtraction
+    result = num1 - num2;
+
+    // Output the result
+    printf("%d\n", result);
+
+    return 0;
+}
