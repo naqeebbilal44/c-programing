@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+    float num1, num2, result;
+
+    // Prompting and reading two numbers
+    printf("Enter two numbers (dividend and divisor): ");
+    scanf("%f %f", &num1, &num2);
+
+    // Check for division by zero
+    if (num2 == 0) {
+        printf("Error: Division by zero is not allowed.\n");
+    } else {
+        // Performing division
+        result = num1 / num2;
+        printf("Result = %f\n", result);
+    }
+
+    return 0;
+}
+
