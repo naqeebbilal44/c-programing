@@ -1,0 +1,41 @@
+#include <stdio.h>
+
+int main() {
+    int a, b, c;
+
+    // Input from user
+    printf("Enter two numbers (a and b): ");
+    scanf("%d %d", &a, &b);
+
+    // Relational Operators
+    printf("\nRelational Operators (a=%d, b=%d):\n", a, b);
+    printf("a == b: %d\n", a == b);
+    printf("a != b: %d\n", a != b);
+    printf("a > b: %d\n", a > b);
+    printf("a < b: %d\n", a < b);
+    printf("a >= b: %d\n", a >= b);
+    printf("a <= b: %d\n\n", a <= b);
+
+    // Logical Operators
+    printf("Logical Operators:\n");
+    printf("(a > 0 && b > 0): %d\n", (a > 0 && b > 0));
+    printf("(a > 0 || b < 0): %d\n", (a > 0 || b < 0));
+    printf("!(a == b): %d\n\n", !(a == b));
+
+    // Assignment Operators
+    printf("Assignment Operators:\n");
+    c = a; // Simple assignment
+    printf("c = a → c = %d\n", c);
+    c += b; // Addition assignment (c = c + b)
+    printf("c += b → c = %d\n", c);
+    c -= a; // Subtraction assignment (c = c - a)
+    printf("c -= a → c = %d\n", c);
+    c *= b; // Multiplication assignment (c = c * b)
+    printf("c *= b → c = %d\n", c);
+    c /= a; // Division assignment (c = c / a)
+    printf("c /= a → c = %d\n", c);
+    c %= b; // Modulus assignment (c = c %% b)
+    printf("c %%= b → c = %d\n", c);
+
+    return 0;
+}
