@@ -1,4 +1,4 @@
-// Q30: Demonstrate the use of continue and break keywords (in loops)
+// Demonstrate the use of continue and break keywords (in loops)
 #include <stdio.h>
 
 int main() {
