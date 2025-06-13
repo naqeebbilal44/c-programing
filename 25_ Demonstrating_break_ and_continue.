@@ -1,0 +1,24 @@
+// Q30: Demonstrate the use of continue and break keywords (in loops)
+#include <stdio.h>
+
+int main() {
+    int i;
+
+    printf("Demonstrating break and continue:\n");
+
+    for (i = 1; i <= 10; i++) {
+        if (i == 5) {
+            printf("Continue at i = %d\n", i);
+            continue; // Skips the rest of loop when i == 5
+        }
+
+        if (i == 8) {
+            printf("Break at i = %d\n", i);
+            break; // Exits the loop when i == 8
+        }
+
+        printf("i = %d\n", i);
+    }
+
+    return 0;
+}
