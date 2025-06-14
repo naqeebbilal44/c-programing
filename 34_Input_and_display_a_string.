@@ -1,0 +1,13 @@
+//Input a string from the user and display it
+#include <stdio.h>
+
+int main() {
+    char str[100];
+
+    printf("Enter a string: ");
+    gets(str);  // Note: safer alternative is fgets()
+
+    printf("You entered: %s\n", str);
+
+    return 0;
+}
