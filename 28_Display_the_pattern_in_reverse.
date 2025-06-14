@@ -1,0 +1,24 @@
+// Display the pattern:
+// *****
+// ***
+// **
+// *
+#include <stdio.h>
+
+int main() {
+    int i = 5, j;
+
+    while (i >= 1) {
+        j = 1;
+        while (j <= i) {
+            printf("*");
+            j++;
+        }
+        printf("\n");
+
+        if (i == 5) i = 3; // Jump to 3 to match the pattern
+        else i--;
+    }
+
+    return 0;
+}
